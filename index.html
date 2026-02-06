@@ -1,0 +1,72 @@
+<html>
+  <head>
+    <style>
+      #input{
+        padding:6px 8px;
+        border-radius:5px;
+       position:absolute;
+        top:2px;
+        right:5px;
+        box-shadow:1px 1px 4px blue;
+       font-size:1rem
+      }
+     #name{
+       padding:6px 8px;
+        border-radius:5px;
+        margin:40px 10px;
+        width:70%;
+        box-shadow:2px 2px 5px;
+       font-size:1.3rem
+     }
+     .btn{
+       padding:5px 10px;
+       border-radius:5px;
+       border:none;
+       background-color:lightblue;
+       box-shadow:2px 2px 5px;
+       font-size:1.3rem
+     }
+     .btn:hover{
+       background-color:yellow
+     }
+     .button{
+       background-color:#d13535;
+       
+       border:none;
+       border-radius:3px;
+       position:absolute;
+       right:20px;
+       padding:2px 3px;
+       font-size:1.1rem
+     }
+     .listItem{
+       width:100%;
+       position:relative;
+       background-color:#e0e07cd1;
+       margin-top:5px;
+       padding:8px 5px;
+       border-radius:5px;
+       font-size:1.2rem
+     }
+      .done{
+        background-color:green;
+        
+      }
+      .done::before{
+        content="✓";
+        color:blue;
+        
+      }
+    </style>
+    
+  </head>
+  <body>
+    <input type="search"placeholder="Search ..."id="input">
+    <input type="text"placeholder="add  name"id="name">
+    <button class="btn"id="btn">add</button>
+    <ul class="list"id="list"></ul>
+    <script src='Debi.js'>
+      
+    </script>
+  </body>
+</html>
